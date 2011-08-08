@@ -1,6 +1,5 @@
 # GNU make syntax reigns in this file.
 
-CFLAGS += -Werror
 CPPFLAGS += -MD -MP -MF .deps/$(subst .._,,$(subst /,_,$<)).d
 
 ASCIIDOC = asciidoc
